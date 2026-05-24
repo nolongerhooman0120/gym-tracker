@@ -1,0 +1,19 @@
+A command-line CRUD application to log and manage gym workouts, built with Python and MySQL.
+
+## Features
+- Log workout sessions by date
+- Add exercises with sets, reps, and weight
+- View all workouts and exercises
+- Update exercise details
+- Delete workouts
+
+## Tech Stack
+- Python
+- MySQL
+- mysql-connector-python
+
+## Setup
+1. Clone this repo
+2. Install dependencies: `pip install mysql-connector-python`
+3. Copy `db.example.py` to `db.py` and fill in your MySQL credentials
+4. Run: `python main.py`
